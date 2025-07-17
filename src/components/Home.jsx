@@ -226,6 +226,30 @@ useEffect(() => {
           className="w-full lg:w-[300px] object-cover rounded-lg hidden lg:block"
         />
       </motion.div>
+      {/* Nu Eta Chapter Section */}
+<motion.div
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  className="bg-white/5 backdrop-blur-md rounded-xl p-10 mb-20 flex flex-col lg:flex-row gap-10"
+>
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-yellow-400 mb-4">Nu Eta Chapter</h2>
+    <p className="text-blue-100 leading-relaxed mb-6">
+      The Nu Eta Chapter of IEEE HKN was installed at Sri Sairam Engineering College on <strong>29 September 2023</strong>.
+      It is the <strong>4th IEEE HKN chapter</strong> in India and the <strong>272nd worldwide</strong>. ‘Nu Eta’ symbolizes a commitment
+      to new-age technology and innovation. Under the visionary leadership of
+      <strong> Dr. Sai Prakash Leo Muthu</strong>, Chairman and CEO of Sairam Institutions, who is also a professional member,
+      the chapter is on track to achieve great success and spread the spirit and values of IEEE Eta Kappa Nu.
+      The team is guided by <strong>Dr. Soma Prathibha</strong> and is committed to harnessing innovation for the advancement of society.
+    </p>
+  </div>
+
+  <img
+    src="/images/hkn.jpeg"
+    alt="Nu Eta Chapter Campus"
+    className="w-full lg:w-[300px] object-cover rounded-lg"
+  />
+</motion.div>
 
       {/* Genesis 1.0 Recap */}
       <motion.div

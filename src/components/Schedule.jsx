@@ -32,7 +32,7 @@ const Schedule = () => {
         },
         {
           time: "02:00 PM - 03:00 PM",
-          name: "LINKEDIN & RESUME BUILDING WORKSHOP",
+          name: "POWER WITHIN: PERSONAL IDENTITY, GROWTH & IMPACT",
           description: "Hands-on parallel session on resume building and LinkedIn profile creation"
         },
         {

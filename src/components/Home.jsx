@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar, faUsers, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+
 
 const Home = () => {
   const dayOneEvents = [
@@ -65,6 +67,39 @@ const Home = () => {
       </div>
     </div>
   );
+  const targetDate = new Date("2025-07-31T09:00:00+05:30").getTime();
+
+const [timeLeft, setTimeLeft] = useState({
+  days: 0,
+  hours: 0,
+  minutes: 0,
+  seconds: 0
+});
+
+useEffect(() => {
+  const interval = setInterval(() => {
+    const now = new Date().getTime();
+    const difference = targetDate - now;
+
+    if (difference < 0) {
+      clearInterval(interval);
+    } else {
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (difference % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      setTimeLeft({ days, hours, minutes, seconds });
+    }
+  }, 1000);
+
+    return () => clearInterval(interval);
+}, []);
+
 
   return (
     <div className="min-h-screen w-full bg-[#123A94] text-white font-sans pt-[80px] px-8 pb-8 space-y-20 overflow-x-hidden">
@@ -93,13 +128,33 @@ const Home = () => {
         </h1>
         <p className="text-blue-200 text-xl">HumAInity 2025: Where Intelligence Meets Intention</p>
         <p className="text-2xl font-semibold text-yellow-400">July 31 & August 1, 2025</p>
-        <motion.button
+        
+        <div className="mt-6 w-full max-w-md mx-auto bg-white/10 backdrop-blur-md text-center py-6 px-4 rounded-xl shadow-lg grid grid-cols-4 gap-4 text-white text-lg font-semibold">
+  <div>
+    <p className="text-3xl text-yellow-400">{timeLeft.days}</p>
+    <p className="text-blue-200 text-sm">Days</p>
+  </div>
+  <div>
+    <p className="text-3xl text-yellow-400">{timeLeft.hours}</p>
+    <p className="text-blue-200 text-sm">Hours</p>
+  </div>
+  <div>
+    <p className="text-3xl text-yellow-400">{timeLeft.minutes}</p>
+    <p className="text-blue-200 text-sm">Minutes</p>
+  </div>
+  <div>
+    <p className="text-3xl text-yellow-400">{timeLeft.seconds}</p>
+    <p className="text-blue-200 text-sm">Seconds</p>
+  </div>
+</div>
+<motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="bg-yellow-400 text-blue-900 px-10 py-3 rounded-full font-bold text-lg hover:bg-yellow-300"
         >
           Register Now
         </motion.button>
+
       </motion.div>
 
       {/* Key Features */}
@@ -197,6 +252,16 @@ const Home = () => {
         <h2 className="text-4xl font-bold text-center underline decoration-yellow-400 decoration-4">
           Event Highlights
         </h2>
+       <div className="bg-yellow-200 border-2 border-yellow-500 text-black p-4 rounded-xl shadow-md text-center text-lg max-w-4xl mx-auto mt-4">
+  <span role="img" aria-label="warning">⚠️</span> 
+  <strong className="underline"> Disclaimer: </strong> 
+  Please note that accommodation and transportation facilities will <strong>not</strong> be provided by the organizing institution.
+</div>
+
+<div className="bg-blue-100 border border-blue-500 text-black p-4 rounded-xl shadow text-center text-lg max-w-4xl mx-auto mt-2">
+  <strong>Note:</strong> You can participate in <strong>only one</strong> event per day.
+</div>
+
 
         {/* Day 1 */}
         <div>

@@ -18,21 +18,21 @@ const Schedule = () => {
         {
           time: "12:30 PM - 01:15 PM",
           name: "LUNCH BREAK",
-          description: "Lunch provided to all participants"
+          description: "Lunch provided to all registered participants"
         },
         {
           time: "01:30 PM - 03:30 PM",
-          name: "PROJECT PRESENTATION",
+          name: "PITCH FOR THE PLANET: SDG INNOVATION EXPO",
           description: "Parallel event showcasing student projects"
         },
         {
           time: "01:30 PM - 03:30 PM",
-          name: "CODEVERSE",
+          name: "CODE FOR CAUSE: THE HUMANITARIAN HACK-SPRINT",
           description: "Parallel coding event hosted via HackerRank"
         },
         {
           time: "02:00 PM - 03:00 PM",
-          name: "LINKEDIN & RESUME WORKSHOP",
+          name: "LINKEDIN & RESUME BUILDING WORKSHOP",
           description: "Hands-on parallel session on resume building and LinkedIn profile creation"
         },
         {
@@ -47,12 +47,12 @@ const Schedule = () => {
       events: [
         {
           time: "09:30 AM - 11:00 AM",
-          name: "GREEN AI WORKSHOP",
+          name: "GREENMIND: SUSTAINABLE AI FOR A BETTER TOMORROW",
           description: "Parallel workshop on sustainable AI applications"
         },
         {
           time: "09:30 AM - 11:00 AM",
-          name: "SMART CITIES IDEATHON",
+          name: "URBANTHINK 2025: DESIGNING CITIES THAT FEEL HUMAN",
           description: "Parallel ideation event focused on smart city solutions"
         },
         {
@@ -72,7 +72,7 @@ const Schedule = () => {
         },
         {
           time: "01:30 PM - 02:30 PM",
-          name: "PANEL DISCUSSION",
+          name: "VOICES OF FIRE: IGNITING PURPOSE-DRIVEN CAREERS WITH IEEE",
           description: "Session with alumni and experts (moderated)"
         },
         {

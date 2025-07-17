@@ -193,7 +193,7 @@ const eventDetails = {
 },
 
  brandingbeyondborders: {
-  title: "Craft Your Digital Self: Branding Beyond Borders",
+  title: "Power Within: Personal Identity, Growth & Impact",
   description: "Hands-on workshop to help students design impactful resumes and LinkedIn profiles.",
   image: "/images/linkedin.png",
   focus: "Foundational growth, SDG alignment, career empowerment.",

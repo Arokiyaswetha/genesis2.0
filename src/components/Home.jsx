@@ -3,6 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar, faUsers, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
+import FAQ from "./faq";
+
+
+
+
 
 
 const Home = () => {
@@ -306,6 +311,14 @@ useEffect(() => {
             ))}
           </div>
         </div>
+        <section id="faq">
+  <FAQ />
+</section>
+
+    
+
+       
+
       </div>
     </div>
   );

@@ -20,8 +20,12 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
-              <img src="/images/logo1.png" alt="Logo 1" className="h-8" />
               <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
+              <img src="/images/htb.png" alt="HTB Logo" className="h-20 w-auto" />
+              <img src="/images/sairam_institutions_logo.png" alt="Sairam Institutions Logo" className="h-20" />
+
+
+
             </div>
             <Link to="/" className="text-2xl font-bold text-white">
               Genesis <span className="text-accent">2.0</span>

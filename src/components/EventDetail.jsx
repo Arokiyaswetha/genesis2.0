@@ -402,7 +402,7 @@ greenmind: {
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍💼 Guest Speakers</h3>
           <p className="mb-2">
             <strong>Swami K</strong><br />
-            Senior Director of DevOps & SRE @ Kissflow | Integrating Netflix DevOps Culture & Google SRE Practices to Empower Our Engineering Team		
+            Senior Director of DevOps & SRE @ Kissflow 
           </p>
           <p>
             <strong>Aravindhan P</strong><br />

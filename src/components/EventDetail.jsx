@@ -216,7 +216,7 @@ const eventDetails = {
         <div className="mt-8 p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
           <ul className="list-disc pl-5 space-y-1">
-            <li><strong>Sankari</strong> – Assistant Professor, IT, Sri Sairam Engineering College – 📱 9884141080</li>
+            <li><strong>Dr Sankari S</strong> – Professor, IT, Sri Sairam Engineering College – 📱 9884141080</li>
           </ul>
         </div>
 
@@ -297,6 +297,14 @@ brandingbeyondborders: {
             <strong>Mr. Rajaprasanna Venkatesan</strong><br />
             Director, Corporate Strategy, Flex
           </p>
+        </div>
+           {/* Faculty Coordinators */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-100">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Dr. G. Puthilibai</strong> – 📱80725 59655</li>
+            <li><strong>Ms. B. Elakiyadevi</strong> – 📱97918 75972</li>
+          </ul>
         </div>
 
         {/* Certification & Notes */}

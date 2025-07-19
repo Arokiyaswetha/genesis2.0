@@ -255,8 +255,7 @@ useEffect(() => {
     className="w-full lg:w-[300px] object-cover rounded-lg"
   />
 </motion.div>
-
-      {/* Genesis 1.0 Recap */}
+{/* Genesis 1.0 Recap */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -270,11 +269,49 @@ useEffect(() => {
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-yellow-400 mb-4">About Genesis 1.0</h2>
           <p className="text-blue-100 leading-relaxed">
-            Genesis 1.0 was a two-day symposium organized by the IEEE-HKN Nu Eta Chapter, empowering students with tech
-            and sustainability insights. It included expert talks, exhibitions, workshops, and leadership sessions.
+          Genesis 1.0 was the inaugural flagship symposium organized by the IEEE-HKN Nu Eta Chapter at Sri Sairam Engineering College. This two-day event served as a dynamic platform to empower students with forward-thinking insights into technology, sustainability, and leadership.The symposium featured a blend of expert talks by industry pioneers, hands-on workshops, interactive exhibitions, and impactful leadership sessions. It brought together innovators, engineers, and aspiring changemakers to explore emerging technologies and their role in building a more sustainable and equitable future.
           </p>
         </div>
       </motion.div>
+      {/* IEEE HTB Section */}
+<div className="bg-white/5 backdrop-blur-md rounded-xl p-10 mb-20 flex flex-col lg:flex-row gap-10 items-center">
+  <div className="flex-1">
+    <h2 className="text-2xl font-bold text-yellow-400 mb-4">IEEE Humanitarian Technologies Board (HTB)</h2>
+    <p className="text-white text-justify mb-2">
+      The HTB inspires and empowers IEEE volunteers around the world carrying out and supporting impactful humanitarian technology activities at the local level.
+    </p>
+    <p className="text-white text-justify mb-2">
+      The IEEE HTB mission is to support impactful and ethically informed volunteer-led initiatives, programs and projects, and mutually beneficial partnerships, 
+      as well as to inform policy formulation that harness technology and innovation to address societal challenges (including disaster recovery) in a responsive, effective, and sustainable way.
+    </p>
+    <p className="text-white text-justify">
+      IEEE HTB was formerly the IEEE Humanitarian Activities Committee and was elevated to a Board in November 2022.
+    </p>
+  </div>
+  <div className="flex-1 flex justify-center">
+    <img
+      src="/images/htb.jpeg"
+      alt="IEEE HTB"
+      className="rounded-xl w-full max-w-md object-cover"
+    />
+  </div>
+</div>
+
+      {/* Prize Pool Highlight Section */}
+<div className="bg-gradient-to-br from-[#1e2a78]/60 to-[#14234d]/70 border border-yellow-400 shadow-lg shadow-yellow-300/30 rounded-xl px-8 py-6 mb-12 text-center">
+  <h2 className="text-3xl font-extrabold text-yellow-400 mb-3">
+    🎁 Prize Pool Worth ₹30,000! 🎁
+  </h2>
+  <p className="text-white text-lg mb-1">
+    Get ready to spark innovation and showcase your brilliance!
+  </p>
+  <p className="text-white text-lg mb-2">
+    Genesis 2.0 brings you thrilling challenges and competitions with an extraordinary total prize worth <span className="text-yellow-300 font-semibold">₹30,000</span> up for grabs.
+  </p>
+  <p className="italic text-white/90 text-base">
+    Create. Compete. Conquer.
+  </p>
+</div>
 
       {/* Event Highlights */}
       <div className="space-y-16">

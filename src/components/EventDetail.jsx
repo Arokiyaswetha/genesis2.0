@@ -418,7 +418,7 @@ greenmind: {
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
           <ul className="list-disc pl-5 space-y-1">
             <li><strong>Dr R.Azhagumurugan </strong> – 📱+91 9176769191</li>
-            <li><strong>Ms. B. Elakiyadevi</strong> – 📱+91 98943 84487</li>
+            <li><strong>Dr L. Kurinjimalar</strong> – 📱+91 98943 84487</li>
           </ul>
         </div>
         

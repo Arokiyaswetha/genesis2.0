@@ -9,7 +9,7 @@ const eventDetails = {
     image: "/images/expo.png",
     focus: "Foundational growth, SDG alignment, career empowerment.",
     objective: "Highlight student-led sustainable innovation.",
-    date: "July 31, 2025 | 1:30 PM - 3:30 PM",
+    date: "July 31, 2025 | 1:30 PM - 4:00 PM",
     venue: "Sigma Auditorium, Sri Sairam Engineering College",
     details: (
       <>
@@ -102,7 +102,13 @@ const eventDetails = {
                   <li>Winners will be awarded in Valedictory Ceremony</li>
                 </ul>
               </div>
-
+              <div className="p-5 mt-6 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Kothai Ma'am</strong> – Asst. Professor, EEE, Sri Sairam Engineering College — 📞 91761126648</li>
+            <li><strong>Sivaperumal Sir</strong> – Asst. Professor, EEE, Sri Sairam Engineering College — 📞 9840918164</li>
+          </ul>
+        </div>
               <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow italic text-blue-200">
                 💡 This is your chance to turn a prototype into purpose.
                 <br />Register now and pitch for the planet!
@@ -120,7 +126,7 @@ const eventDetails = {
   image: "/images/code.png",
   focus: "Coding, analytical skills, and tech excellence.",
   objective: "Encourage rapid coding and logical problem-solving.",
-  date: "July 31, 2025 | 1:30 PM - 3:30 PM",
+  date: "July 31, 2025 | 1:30 PM - 4:00 PM",
   venue: "Alpha Hall, Sri Sairam Engineering College",
   details: (
     <>
@@ -198,7 +204,7 @@ const eventDetails = {
   image: "/images/linkedin.png",
   focus: "Foundational growth, SDG alignment, career empowerment.",
   objective: "Empower students to build strong digital presence.",
-  date: "July 31, 2025 | 2:00 PM - 3:30 PM",
+  date: "July 31, 2025 | 1:00 PM - 4:00 PM",
   venue: "Beta Hall, Sri Sairam Engineering College",
   details: (
     <>
@@ -282,7 +288,7 @@ greenmind: {
   image: "/images/AI.png",
   focus: "Tech-driven innovation, sustainability, and purpose-led leadership.",
   objective: "Introduce students to sustainable AI principles.",
-  date: "August 1, 2025 | 9:30 AM - 11:00 AM",
+  date: "August 1, 2025 | 9:30 AM - 12:30 PM",
   venue: "Alpha Hall, Sri Sairam Engineering College",
   details: (
     <>
@@ -344,7 +350,7 @@ greenmind: {
   image: "/images/smart-city.png",
   focus: "Tech-driven innovation, sustainability, and purpose-led leadership.",
   objective: "Promote SDG-based urban ideation.",
-  date: "August 1, 2025 | 9:30 AM - 11:00 AM",
+  date: "August 1, 2025 | 9:30 AM - 12:30 PM",
   venue: "Beta Hall, Sri Sairam Engineering College",
   details: (
     <>

@@ -4,121 +4,141 @@ import { FaBullseye, FaCalendarAlt, FaMapMarkerAlt, FaLightbulb } from 'react-ic
 
 const eventDetails = {
   sdginnovationexpo: {
-    title: "Pitch for the Planet: SDG Innovation Expo",
-    description: "Students showcase projects addressing one or more SDGs, judged for innovation, feasibility, and impact.",
-    image: "/images/expo.png",
-    focus: "Foundational growth, SDG alignment, career empowerment.",
-    objective: "Highlight student-led sustainable innovation.",
-    date: "July 31, 2025 | 1:30 PM - 4:00 PM",
-    venue: "Sigma Auditorium, Sri Sairam Engineering College",
-    details: (
-      <>
-        <div className="space-y-6 text-blue-100 leading-relaxed">
-          <h2 className="text-xl text-yellow-300 font-semibold">Event Details</h2>
+  title: "Pitch for the Planet: SDG Innovation Expo",
+  description: "Students showcase projects addressing one or more SDGs, judged for innovation, feasibility, and impact.",
+  image: "/images/expo.png",
+  focus: "Foundational growth, SDG alignment, career empowerment.",
+  objective: "Highlight student-led sustainable innovation.",
+  date: "July 31, 2025 | 1:30 PM - 4:00 PM",
+  venue: "Sigma Auditorium, Sri Sairam Engineering College",
+  details: (
+    <>
+      <div className="space-y-6 text-blue-100 leading-relaxed">
+        <h2 className="text-xl text-yellow-300 font-semibold">Event Details</h2>
 
-          <h3 className="text-lg font-semibold text-blue-200">🔹 Theme-Based Tracks</h3>
-          <p>Participants must align their projects with the UN Sustainable Development Goals (SDGs) and choose a theme during registration:</p>
+        <h3 className="text-lg font-semibold text-blue-200">🔹 Theme-Based Tracks</h3>
+        <p>Participants must align their projects with the UN Sustainable Development Goals (SDGs) and choose a theme during registration:</p>
 
-          <div className="overflow-x-auto">
-            <table className="min-w-full table-auto border border-blue-400/20 text-sm">
-              <thead className="bg-blue-600 text-white">
-                <tr>
-                  <th className="px-4 py-2 border border-blue-300">Theme</th>
-                  <th className="px-4 py-2 border border-blue-300">SDG Goals</th>
-                  <th className="px-4 py-2 border border-blue-300">Focus Areas</th>
-                </tr>
-              </thead>
-              <tbody className="bg-white/10 text-blue-100">
-                <tr>
-                  <td className="px-4 py-2 border border-blue-300">Theme 1</td>
-                  <td className="px-4 py-2 border border-blue-300">SDG 1 to 6</td>
-                  <td className="px-4 py-2 border border-blue-300">Poverty, hunger, health, education, gender equality, water</td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-2 border border-blue-300">Theme 2</td>
-                  <td className="px-4 py-2 border border-blue-300">SDG 7 to 12</td>
-                  <td className="px-4 py-2 border border-blue-300">Energy, innovation, infrastructure, industry, sustainability</td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-2 border border-blue-300">Theme 3</td>
-                  <td className="px-4 py-2 border border-blue-300">SDG 13 to 17</td>
-                  <td className="px-4 py-2 border border-blue-300">Climate action, life on land and water, peace, partnerships</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <div className="overflow-x-auto">
+          <table className="min-w-full table-auto border border-blue-400/20 text-sm">
+            <thead className="bg-blue-600 text-white">
+              <tr>
+                <th className="px-4 py-2 border border-blue-300">Theme</th>
+                <th className="px-4 py-2 border border-blue-300">SDG Goals</th>
+                <th className="px-4 py-2 border border-blue-300">Focus Areas</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white/10 text-blue-100">
+              <tr>
+                <td className="px-4 py-2 border border-blue-300">Theme 1</td>
+                <td className="px-4 py-2 border border-blue-300">SDG 1 to 6</td>
+                <td className="px-4 py-2 border border-blue-300">Poverty, hunger, health, education, gender equality, water</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-blue-300">Theme 2</td>
+                <td className="px-4 py-2 border border-blue-300">SDG 7 to 12</td>
+                <td className="px-4 py-2 border border-blue-300">Energy, innovation, infrastructure, industry, sustainability</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border border-blue-300">Theme 3</td>
+                <td className="px-4 py-2 border border-blue-300">SDG 13 to 17</td>
+                <td className="px-4 py-2 border border-blue-300">Climate action, life on land and water, peace, partnerships</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-          <div className="grid md:grid-cols-2 gap-6 mt-8">
-            {/* Left Column */}
-            <div className="space-y-4">
-              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-                <h3 className="text-lg font-semibold text-yellow-300 mb-2">👥 Team Structure</h3>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>2 to 4 members per team</li>
-                  <li>One project per team</li>
-                  <li>All members must be present on event day</li>
-                  <li>Each team gets a table to set up prototype</li>
-                </ul>
-              </div>
-
-              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-                <h3 className="text-lg font-semibold text-yellow-300 mb-2">✅ Participation Requirements</h3>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>Working prototype is mandatory</li>
-                  <li>No idea-only submissions accepted</li>
-                  <li>Bring your own tools and materials</li>
-                  <li>No support will be provided for setup</li>
-                </ul>
-              </div>
-
-              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-                <h3 className="text-lg font-semibold text-yellow-300 mb-2">🔔 Important Notes</h3>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>Select your theme carefully during registration</li>
-                  <li>Final selection will be notified via email</li>
-                  <li>Absentees on July 31 will be disqualified</li>
-                </ul>
-              </div>
+        {/* Grid with two equal columns */}
+        <div className="grid md:grid-cols-2 gap-6 mt-8">
+          {/* Left Column */}
+          <div className="space-y-6">
+            <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">👥 Team Structure</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>2 to 4 members per team</li>
+                <li>One project per team</li>
+                <li>All members must be present on event day</li>
+                <li>Each team gets a table to set up prototype</li>
+              </ul>
             </div>
 
-            {/* Right Column */}
-            <div className="space-y-4">
-              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-                <h3 className="text-lg font-semibold text-yellow-300 mb-2">🧑‍⚖️ Judging Criteria</h3>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li><strong>Innovation</strong> – Creativity and originality</li>
-                  <li><strong>Feasibility</strong> – Practicality and scalability</li>
-                  <li><strong>Impact</strong> – SDG alignment and social value</li>
-                  <li><strong>Presentation</strong> – Communication & delivery</li>
-                </ul>
-              </div>
+            <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">✅ Participation Requirements</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>Working prototype is mandatory</li>
+                <li>No idea-only submissions accepted</li>
+                <li>Bring your own tools and materials</li>
+                <li>No support will be provided for setup</li>
+              </ul>
+            </div>
 
-              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-                <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certificates & Prizes</h3>
-                <ul className="list-disc pl-5 space-y-1">
-                  <li>Top 3 teams receive hard copy certificates</li>
-                  <li>Finalists (21 teams) get E-certificates</li>
-                  <li>All selected participants get E-certificates</li>
-                  <li>Winners will be awarded in Valedictory Ceremony</li>
-                </ul>
-              </div>
-              <div className="p-5 mt-6 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
-          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
-          <ul className="list-disc pl-5 space-y-1">
-            <li><strong>Kothai Ma'am</strong> – Asst. Professor, EEE, Sri Sairam Engineering College — 📞 91761126648</li>
-            <li><strong>Sivaperumal Sir</strong> – Asst. Professor, EEE, Sri Sairam Engineering College — 📞 9840918164</li>
-          </ul>
-        </div>
-              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow italic text-blue-200">
+            <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">🔔 Important Notes</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>Select your theme carefully during registration</li>
+                <li>Final selection will be notified via email</li>
+                <li>Absentees on July 31 will be disqualified</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Right Column */}
+          <div className="space-y-6">
+            <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">🧑‍⚖️ Judging Criteria</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li><strong>Innovation</strong> – Creativity and originality</li>
+                <li><strong>Feasibility</strong> – Practicality and scalability</li>
+                <li><strong>Impact</strong> – SDG alignment and social value</li>
+                <li><strong>Presentation</strong> – Communication & delivery</li>
+              </ul>
+            </div>
+
+            <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certificates & Prizes</h3>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>Top 3 teams receive hard copy certificates</li>
+                <li>Finalists (21 teams) get E-certificates</li>
+                <li>All selected participants get E-certificates</li>
+                <li>Winners will be awarded in Valedictory Ceremony</li>
+              </ul>
+            </div>
+
+            {/* Motivation box */}
+            <div className="flex justify-center">
+              <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow italic text-blue-200 text-center max-w-xl">
                 💡 This is your chance to turn a prototype into purpose.
                 <br />Register now and pitch for the planet!
               </div>
             </div>
           </div>
         </div>
-      </>
-    )
-  },
+
+        {/* Faculty Coordinators */}
+        <div className="mt-6 p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Kothai</strong> – Assistant Professor, EEE, Sri Sairam Engineering College – 📱 91761 126648</li>
+            <li><strong>Sivaperumal</strong> – Assistant Professor, EEE, Sri Sairam Engineering College – 📱 98409 18164</li>
+          </ul>
+        </div>
+
+        {/* Student Contact Persons */}
+        <div className="mt-6 p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Nakul S</strong> – EEE, Sri Sairam Engineering College – 📱 99445 62610</li>
+            <li><strong>Aathika N M</strong> – IT, Sri Sairam Engineering College – 📱 97910 88771</li>
+          </ul>
+        </div>
+
+       
+       
+      </div>
+    </>
+  )
+},
+
 
   codeforcause: {
   title: "Code Verse - Crack the Code. Conquer the Verse.",
@@ -135,7 +155,6 @@ const eventDetails = {
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">📍 Event Details</h3>
           <ul className="list-disc pl-5 space-y-1">
-          
             <li><strong>Platform:</strong> HackerRank</li>
           </ul>
         </div>
@@ -144,11 +163,13 @@ const eventDetails = {
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">💻 Event Overview</h3>
           <p>
-            Code Verse is a competitive coding showdown where logic meets speed. Participants will face a challenging problem statement and must develop and submit their solution on HackerRank within the time limit.
+            Code Verse is a competitive coding showdown where logic meets speed.
+            Participants will face a challenging problem statement and must develop
+            and submit their solution on HackerRank within the time limit.
           </p>
         </div>
 
-        {/* Judging Criteria */}
+        {/* Judging Criteria & Certification */}
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
             <h3 className="text-lg font-semibold text-yellow-300 mb-2">🏆 Judging Criteria</h3>
@@ -189,7 +210,25 @@ const eventDetails = {
           </div>
         </div>
 
-        {/* Footer Line */}
+        
+
+        {/* Faculty Coordinators */}
+        <div className="mt-8 p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Sankari</strong> – Assistant Professor, IT, Sri Sairam Engineering College – 📱 9884141080</li>
+          </ul>
+        </div>
+
+        {/* Student Contact Persons */}
+        <div className="mt-6 p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>NITHIKA SHREE M S</strong> – IT, Sri Sairam Engineering College – 📱 7904806736</li>
+            <li><strong>KIRUBA NITHI P</strong> – IT, Sri Sairam Engineering College – 📱 9043532298</li>
+          </ul>
+        </div>
+        {/* Final Line */}
         <div className="mt-6 italic text-blue-200 text-center">
           💡 Think you can outsmart the problem and rise above the rest? Join Code Verse and let your logic lead the way!
         </div>
@@ -198,7 +237,8 @@ const eventDetails = {
   )
 },
 
- brandingbeyondborders: {
+
+brandingbeyondborders: {
   title: "Power Within: Personal Identity, Growth & Impact",
   description: "Hands-on workshop to help students design impactful resumes and LinkedIn profiles.",
   image: "/images/linkedin.png",
@@ -210,10 +250,9 @@ const eventDetails = {
     <>
       <div className="space-y-6 text-blue-100 leading-relaxed">
         <h2 className="text-xl text-yellow-300 font-semibold">📍 Event Details</h2>
-        <ul className="list-disc pl-5 space-y-1">
-          
-        </ul>
+        <ul className="list-disc pl-5 space-y-1"></ul>
 
+        {/* Workshop Overview */}
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">💼 Workshop Overview</h3>
           <p>
@@ -223,6 +262,7 @@ const eventDetails = {
           </p>
         </div>
 
+        {/* Modules & Eligibility */}
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
             <h3 className="text-lg font-semibold text-yellow-300 mb-2">👥 Eligibility & Participation</h3>
@@ -246,15 +286,20 @@ const eventDetails = {
           </div>
         </div>
 
+        {/* Guest Speakers */}
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍💼 Guest Speaker</h3>
-          <p>
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍💼 Guest Speakers</h3>
+          <p className="mb-2">
             <strong>Ms. Suganya</strong><br />
-            Human Resources Professional<br />
-            Industry expert guiding students on aligning their online presence with hiring expectations and global opportunities.
+            Regional Talent Lead, Asia Talent Solutions, Flex
+          </p>
+          <p>
+            <strong>Mr. Rajaprasanna Venkatesan</strong><br />
+            Director, Corporate Strategy, Flex
           </p>
         </div>
 
+        {/* Certification & Notes */}
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
             <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certification</h3>
@@ -274,6 +319,7 @@ const eventDetails = {
           </div>
         </div>
 
+        {/* Closing Line */}
         <div className="mt-6 italic text-blue-200 text-center">
           💡 Ready to unlock your digital identity? Join this transformative session and take the first step toward building a future-ready career.
         </div>

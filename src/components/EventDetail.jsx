@@ -306,6 +306,15 @@ brandingbeyondborders: {
             <li><strong>Ms. B. Elakiyadevi</strong> – 📱97918 75972</li>
           </ul>
         </div>
+        {/* Contact Persons */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>NIROSHA E</strong> – IT, Sri Sairam Engineering College – 📱 93600 62351</li>
+            <li><strong>ALAGAPPAN</strong> – ECE, Sri Sairam Engineering College – 📱 82208 39320</li>
+          </ul>
+        </div>
+
 
         {/* Certification & Notes */}
         <div className="grid md:grid-cols-2 gap-6">
@@ -388,6 +397,40 @@ greenmind: {
             <li>Live demonstration of sustainable AI applications</li>
           </ul>
         </div>
+        {/* Guest Speakers */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍💼 Guest Speakers</h3>
+          <p className="mb-2">
+            <strong>Swami K</strong><br />
+            Senior Director of DevOps & SRE @ Kissflow | Integrating Netflix DevOps Culture & Google SRE Practices to Empower Our Engineering Team		
+          </p>
+          <p>
+            <strong>Aravindhan P</strong><br />
+            Devops Engineer at Kissflow Inc, Chennai
+          </p>
+          <p>
+            <strong>Noordeen M</strong><br />
+            Senior DevOps Engineer,at Kissflow Inc, Chennai
+          </p>
+        </div>
+           {/* Faculty Coordinators */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-100">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Dr R.Azhagumurugan </strong> – 📱+91 9176769191</li>
+            <li><strong>Ms. B. Elakiyadevi</strong> – 📱+91 98943 84487</li>
+          </ul>
+        </div>
+        
+        {/* Contact Persons */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>ROHITH P</strong> – AI&DS, Sri Sairam Engineering College – 📱 98848 39332</li>
+            <li><strong>NAKUL S</strong> – EEE, Sri Sairam Engineering College – 📱 99445 62610</li>
+          </ul>
+        </div>
+
 
         <div className="mt-6 italic text-blue-200 text-center">
           💡 Discover how intelligent systems can be smart and sustainable!

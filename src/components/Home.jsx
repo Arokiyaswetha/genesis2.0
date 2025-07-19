@@ -15,19 +15,19 @@ const Home = () => {
     {
       title: "Pitch for the Planet: SDG Innovation Expo",
       desc: "Students showcase SDG-based projects judged for innovation and impact.",
-      image: "/images/events/sdg-pitch.jpg",
+      image: "/images/pe_hp.jpg",
       slug: "sdginnovationexpo"
     },
     {
       title: "Code for Cause: The Humanitarian Hack-Sprint",
       desc: "Coding challenge with humanitarian-themed problems (disaster, energy, health).",
-      image: "/images/events/code-humanity.jpg",
+      image: "/images/ce_hp.jpg",
       slug: "codeforcause"
     },
     {
       title: "Craft Your Digital Self: Branding Beyond Borders",
       desc: "Hands-on LinkedIn and resume building workshop.",
-      image: "/images/events/linkedin-resume.jpg",
+      image: "/images/aa_hp.jpg",
       slug: "brandingbeyondborders"
     }
   ];
@@ -36,19 +36,19 @@ const Home = () => {
     {
       title: "GreenMind: Sustainable AI for a Better Tomorrow",
       desc: "Hands-on AI sessions focused on ethics, inclusivity, and sustainability.",
-      image: "/images/events/ai-sustainable.jpg",
+      image: "/images/ai_hp.jpg",
       slug: "greenmind"
     },
     {
       title: "UrbanThink 2025: Designing Cities that Feel Human",
       desc: "Ideathon to redesign urban spaces using sustainable practices.",
-      image: "/images/events/smart-city.jpg",
+      image: "/images/sc_hp.jpg",
       slug: "urbanthink2025"
     },
     {
       title: "Voices of Fire: Igniting Purpose-Driven Careers with IEEE",
       desc: "IEEE leaders discuss impact-driven innovation and careers.",
-      image: "/images/events/panel-discussion.jpg",
+      image: "/images/pd_hp.jpg",
       slug: "voicesoffire"
     }
   ];
@@ -324,4 +324,4 @@ useEffect(() => {
   );
 };
 
-export default Home;
+export default Home; 

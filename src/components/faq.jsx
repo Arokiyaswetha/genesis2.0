@@ -2,24 +2,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: "Is bus facility available?",
-    answer: "Yes, transport facility will be arranged for participants from specified locations. Details will be shared after registration confirmation."
-  },
-  {
     question: "Is lunch provided?",
     answer: "Yes, lunch and refreshments will be provided to all registered participants."
   },
   {
-    question: "Can we attend two events on the same day?",
-    answer: "Yes, as long as the events are scheduled at different timings, you can participate in multiple events."
-  },
-  {
     question: "What if one of our team members is missing?",
-    answer: "Your team can still participate with the remaining members. However, ensure at least the minimum required team size is present if specified by the event rules."
+    answer: "All the participants must be present physically for the event."
   },
   {
     question: "Will hardcopy certificates be provided for all participants?",
-    answer: "No, certificates will be provided in digital format (e-certificates) and shared via email after the event."
+    answer: "Second round participants will be given physical certificates. First round participants will receive e-certificates only."
+  },
+  {
+    question: "Do we need to bring our laptops or other materials?",
+    answer: "Yes, participants are expected to bring their own laptops and necessary accessories for coding or project-based events."
   }
 ];
 

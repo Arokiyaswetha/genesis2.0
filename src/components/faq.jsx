@@ -3,7 +3,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: "Is lunch provided?",
-    answer: "Yes, lunch and refreshments will be provided to all registered participants."
+    answer: "Lunch and refreshments will be provided only for participants from other colleges and the event volunteers."
   },
   {
     question: "What if one of our team members is missing?",
@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     question: "Will hardcopy certificates be provided for all participants?",
-    answer: "Second round participants will be given physical certificates. First round participants will receive e-certificates only."
+    answer: "Participants who are physically present and presenting their projects will receive the hardcopy certificates."
   },
   {
     question: "Do we need to bring our laptops or other materials?",

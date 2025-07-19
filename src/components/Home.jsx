@@ -27,7 +27,7 @@ const Home = () => {
     {
       title: "Craft Your Digital Self: Branding Beyond Borders",
       desc: "Hands-on LinkedIn and resume building workshop.",
-      image: "/images/aa_hp.jpg",
+      image: "/images/lw_hp.jpg",
       slug: "brandingbeyondborders"
     }
   ];

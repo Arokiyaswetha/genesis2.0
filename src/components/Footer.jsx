@@ -12,6 +12,11 @@ const Footer = () => {
             </h3>
             <p className="text-blue-200">IEEE-HKN Nu Eta Chapter</p>
           </div>
+          <div className="mt-4">
+            <h2 className="font-semibold text-xl">Tharushi S S</h2>
+            <p className="text-blue-200">tharushibabu@ieee.org</p>
+            <p className="text-pink-400">📞 7358638595</p>
+          </div> 
           
           <div className="flex space-x-6">
             <a href="https://www.linkedin.com/company/nu-eta/" className="text-blue-200 hover:text-accent transition-colors">

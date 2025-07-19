@@ -18,7 +18,7 @@ const Schedule = () => {
         {
           time: "12:30 PM - 01:15 PM",
           name: "LUNCH BREAK",
-          description: "Lunch provided to all registered participants"
+          description: "Lunch and refreshments will be provided only for participants from other colleges and the event volunteers."
         },
         {
           time: "01:30 PM - 03:30 PM",
@@ -68,7 +68,7 @@ const Schedule = () => {
         {
           time: "12:30 PM - 01:15 PM",
           name: "LUNCH BREAK",
-          description: "Lunch provided to all attendees"
+          description: "Lunch and refreshments will be provided only for participants from other colleges and the event volunteers."
         },
         {
           time: "01:30 PM - 02:30 PM",

@@ -152,13 +152,25 @@ useEffect(() => {
     <p className="text-blue-200 text-sm">Seconds</p>
   </div>
 </div>
-<motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-yellow-400 text-blue-900 px-10 py-3 rounded-full font-bold text-lg hover:bg-yellow-300"
-        >
-          Register Now
-        </motion.button>
+<div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center items-center">
+  <a
+    href="https://forms.gle/zo6zusrdRomUhcNr5"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-6 rounded-full transition duration-300 shadow-lg"
+  >
+    Register for Day 1
+  </a>
+  <a
+    href="https://forms.gle/j79u7KQDYedAdfJr9"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-6 rounded-full transition duration-300 shadow-lg"
+  >
+    Register for Day 2
+  </a>
+</div>
+
 
       </motion.div>
 

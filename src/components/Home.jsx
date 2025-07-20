@@ -324,9 +324,7 @@ useEffect(() => {
   Please note that accommodation and transportation facilities will <strong>not</strong> be provided by the organizing institution.
 </div>
 
-<div className="bg-blue-100 border border-blue-500 text-black p-4 rounded-xl shadow text-center text-lg max-w-4xl mx-auto mt-2">
-  <strong>Note:</strong> You can participate in <strong>only one</strong> event per day.
-</div>
+
 
 
         {/* Day 1 */}

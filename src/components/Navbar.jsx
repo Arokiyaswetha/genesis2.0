@@ -23,9 +23,6 @@ const Navbar = () => {
               <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
               <img src="/images/htb.png" alt="HTB Logo" className="h-20 w-auto" />
               <img src="/images/sairam_institutions_logo.png" alt="Sairam Institutions Logo" className="h-20" />
-
-
-
             </div>
             <Link to="/" className="text-2xl font-bold text-white">
               Genesis <span className="text-accent">2.0</span>
@@ -43,13 +40,6 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-accent text-blue-900 px-4 py-2 rounded-full font-medium"
-            >
-              Register
-            </motion.button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,12 +68,6 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <motion.button
-              whileTap={{ scale: 0.95 }}
-              className="w-full bg-accent text-blue-900 px-4 py-2 rounded-full font-medium"
-            >
-              Register
-            </motion.button>
           </div>
         </motion.div>
       </div>

@@ -128,7 +128,7 @@ const eventDetails = {
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
           <ul className="list-disc pl-5 space-y-1">
             <li><strong>Nakul S</strong> – EEE, Sri Sairam Engineering College – 📱 99445 62610</li>
-            <li><strong>Aathika N M</strong> – IT, Sri Sairam Engineering College – 📱 97910 88771</li>
+            <li><strong>Rahini S</strong> – IT, Sri Sairam Engineering College – 📱 63815 97815</li>
           </ul>
         </div>
 
@@ -225,7 +225,7 @@ const eventDetails = {
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
           <ul className="list-disc pl-5 space-y-1">
             <li><strong>NITHIKA SHREE M S</strong> – IT, Sri Sairam Engineering College – 📱 7904806736</li>
-            <li><strong>KIRUBA NITHI P</strong> – IT, Sri Sairam Engineering College – 📱 9043532298</li>
+            <li><strong>ROHITH P</strong> – AI&DS, Sri Sairam Engineering College – 📱 9884839332</li>
           </ul>
         </div>
         {/* Final Line */}
@@ -310,8 +310,8 @@ brandingbeyondborders: {
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
           <ul className="list-disc pl-5 space-y-1">
-            <li><strong>NIROSHA E</strong> – IT, Sri Sairam Engineering College – 📱 93600 62351</li>
-            <li><strong>ALAGAPPAN</strong> – ECE, Sri Sairam Engineering College – 📱 82208 39320</li>
+            <li><strong>Nirosha E</strong> – IT, Sri Sairam Engineering College – 📱 93600 62351</li>
+            <li><strong>Alagappan</strong> – ECE, Sri Sairam Engineering College – 📱 82208 39320</li>
           </ul>
         </div>
 
@@ -402,7 +402,7 @@ greenmind: {
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍💼 Guest Speakers</h3>
           <p className="mb-2">
             <strong>Swami K</strong><br />
-            Senior Director of DevOps & SRE @ Kissflow 
+            Senior Director of DevOps & SRE @ Kissflow | Integrating Netflix DevOps Culture & Google SRE Practices to Empower Our Engineering Team
           </p>
           <p>
             <strong>Aravindhan P</strong><br />
@@ -426,8 +426,8 @@ greenmind: {
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
           <ul className="list-disc pl-5 space-y-1">
-            <li><strong>ROHITH P</strong> – AI&DS, Sri Sairam Engineering College – 📱 98848 39332</li>
-            <li><strong>NAKUL S</strong> – EEE, Sri Sairam Engineering College – 📱 99445 62610</li>
+            <li><strong>Rohith P</strong> – AI&DS, Sri Sairam Engineering College – 📱 98848 39332</li>
+            <li><strong>Samyuktha K S</strong> – ECE, Sri Sairam Engineering College – 📱 98941 96595</li>
           </ul>
         </div>
 
@@ -489,12 +489,23 @@ greenmind: {
           </div>
         </div>
 
-        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-          <h3 className="text-lg font-semibold text-yellow-300 mb-2">🗣️ Mentor / Facilitator</h3>
-          <p>
-            To Be Announced<br />
-            (An IEEE expert or urban innovation strategist)
-          </p>
+       
+          {/* Faculty Coordinators */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-100">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍🏫 Faculty Coordinators</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Dr. Meenakshi </strong> – 📱8939923543</li>
+            <li><strong>Ms. Prathiba nandi</strong> – 📱9597817288</li>
+          </ul>
+        </div>
+     
+          {/* Contact Persons */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Aruni B</strong> – IT, Sri Sairam Engineering College – 📱 9566151871</li>
+            <li><strong>Sanjay S</strong> – M.TECH, Sri Sairam Engineering College – 📱 9788887321</li>
+          </ul>
         </div>
 
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
@@ -574,11 +585,37 @@ voicesoffire: {
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍⚖️ Panel Judges</h3>
           <p>
-            Judge [Name] – [Designation]
+         Niranjan Kumar Sethu Venkataraman
           </p>
-        </div>
+           Founder's Business Executive at Antano & Harini(A&H) | Engineer | IEEE Volunteer  Leader | IEEE CS REM SCHOLAR | IEEE CS 20 in their 20s Honoree | IEEE R10 HTA Outstanding Volunteer'24 Awardee.
+           <p>Sai Sakthivel Rajamani Surendran</p>
+           Business Development Representative - Kissflow
+           <p>Priyanka Jayakumar</p>
+           Technical Writer as part of a SaaS Product team - Chargeback Gurus
+           <p>Lt. Sreekanth R</p>
+           Associate NCC Officer 
+            Assistant Professor 
+            Department of Electrical and Electronics Engineering 
+            St. Joseph's College of Engineering 
+          <p>Abinayaa sri</p>
+          Data Analyst, Latentview Data Analytics
 
+        </div>
+ <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍⚖️ Panel Moderator</h3>
+          <p>Aravindhan Anbazhagan</p>
+          Member, Board of Governors, IEEE Professional Communication Society | TEDx Speaker² | CMU Heinz MSPPM'27 | Teach For India Alumnus
+        </div>
         
+         
+         {/* Contact Persons */}
+        <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow text-blue-200">
+          <h3 className="text-lg font-semibold text-yellow-300 mb-2">📞 Contact Persons</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Saravanan R K</strong> – ECE, Sri Sairam Engineering College – 📱 8144855888</li>
+            <li><strong>Harini M</strong> – CSE, Sri Sairam Engineering College – 📱 9791267236</li>
+          </ul>
+        </div>
       </div>
     </>
   )

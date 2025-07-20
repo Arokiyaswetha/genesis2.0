@@ -583,27 +583,30 @@ voicesoffire: {
         </div>
 
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
-          <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍⚖️ Panel Judges</h3>
-          <p>
-         Niranjan Kumar Sethu Venkataraman
-          </p>
-           Founder's Business Executive at Antano & Harini(A&H) | Engineer | IEEE Volunteer  Leader | IEEE CS REM SCHOLAR | IEEE CS 20 in their 20s Honoree | IEEE R10 HTA Outstanding Volunteer'24 Awardee.
-           <p>Sai Sakthivel Rajamani Surendran</p>
-           Business Development Representative - Kissflow
-           <p>Priyanka Jayakumar</p>
-           Technical Writer as part of a SaaS Product team - Chargeback Gurus
-           <p>Lt. Sreekanth R</p>
-           Associate NCC Officer 
-            Assistant Professor 
-            Department of Electrical and Electronics Engineering 
-            St. Joseph's College of Engineering 
-          <p>Abinayaa sri</p>
-          Data Analyst, Latentview Data Analytics
+  <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍⚖️ Panel Judges</h3>
+  <p><strong>Niranjan Kumar Sethu Venkataraman</strong></p>
+  <p>Founder's Business Executive at Antano & Harini(A&H) | Engineer | IEEE Volunteer Leader | IEEE CS REM SCHOLAR | IEEE CS 20 in their 20s Honoree | IEEE R10 HTA Outstanding Volunteer'24 Awardee.</p>
 
-        </div>
+  <p><strong>Sai Sakthivel Rajamani Surendran</strong></p>
+  <p>Business Development Representative - Kissflow</p>
+
+  <p><strong>Priyanka Jayakumar</strong></p>
+  <p>Technical Writer as part of a SaaS Product team - Chargeback Gurus</p>
+
+  <p><strong>Lt. Sreekanth R</strong></p>
+  <p>Associate NCC Officer<br />
+     Assistant Professor<br />
+     Department of Electrical and Electronics Engineering<br />
+     St. Joseph's College of Engineering
+  </p>
+
+  <p><strong>Abinayaa Sri</strong></p>
+  <p>Data Analyst, Latentview Data Analytics</p>
+</div>
+
  <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">👩‍⚖️ Panel Moderator</h3>
-          <p>Aravindhan Anbazhagan</p>
+          <p><strong>Aravindhan Anbazhagan</strong></p>
           Member, Board of Governors, IEEE Professional Communication Society | TEDx Speaker² | CMU Heinz MSPPM'27 | Teach For India Alumnus
         </div>
         

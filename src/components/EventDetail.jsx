@@ -98,8 +98,7 @@ const eventDetails = {
               <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certificates & Prizes</h3>
               <ul className="list-disc pl-5 space-y-1">
                 <li>Top 3 teams receive hard copy certificates</li>
-                <li>Finalists (21 teams) get E-certificates</li>
-                <li>All selected participants get E-certificates</li>
+                <li>Finalists (21 teams) get hardcopy certificates</li>
                 <li>Winners will be awarded in Valedictory Ceremony</li>
               </ul>
             </div>
@@ -141,7 +140,7 @@ const eventDetails = {
 
 
   codeforcause: {
-  title: "Code Verse - Crack the Code. Conquer the Verse.",
+  title: "Code for Cause: The Humanitarian Hack-Sprint",
   description: "Competitive coding challenge testing speed, logic, and problem-solving.",
   image: "/images/code.png",
   focus: "Coding, analytical skills, and tech excellence.",
@@ -163,7 +162,7 @@ const eventDetails = {
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">💻 Event Overview</h3>
           <p>
-            Code Verse is a competitive coding showdown where logic meets speed.
+            Code for Cause: The Humanitarian Hack-Sprint is a competitive coding showdown where logic meets speed.
             Participants will face a challenging problem statement and must develop
             and submit their solution on HackerRank within the time limit.
           </p>
@@ -184,7 +183,7 @@ const eventDetails = {
           <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
             <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certification</h3>
             <p>
-              All participants receive e-certificates. Winners receive hardcopy certificates.
+              Winners receive hardcopy certificates.
             </p>
           </div>
         </div>
@@ -321,7 +320,6 @@ brandingbeyondborders: {
           <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
             <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certification</h3>
             <ul className="list-disc pl-5 space-y-1">
-              <li>All participants receive e-certificates</li>
               <li>Active participants may be spotlighted in post-event highlights</li>
             </ul>
           </div>
@@ -510,7 +508,7 @@ greenmind: {
 
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">
           <h3 className="text-lg font-semibold text-yellow-300 mb-2">🎓 Certification</h3>
-          <p>All participants will receive e-certificates for active participation.</p>
+          <p>Winners will receive hardcopy certificates.</p>
         </div>
 
         <div className="p-5 bg-white/10 border border-blue-500 rounded-xl shadow">

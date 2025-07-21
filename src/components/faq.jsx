@@ -3,7 +3,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: "Is lunch provided?",
-    answer: "Lunch and refreshments will be provided only for participants from other colleges and the event volunteers."
+    answer: "Lunch will be provided only for participants from other colleges and the event volunteers."
   },
   {
     question: "What if one of our team members is missing?",

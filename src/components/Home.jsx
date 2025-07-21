@@ -25,7 +25,7 @@ const Home = () => {
       slug: "codeforcause"
     },
     {
-      title: "Craft Your Digital Self: Branding Beyond Borders",
+      title: "Power Within: Personal Identity, Growth & Impact",
       desc: "Hands-on LinkedIn and resume building workshop.",
       image: "/images/lw_hp.jpg",
       slug: "brandingbeyondborders"

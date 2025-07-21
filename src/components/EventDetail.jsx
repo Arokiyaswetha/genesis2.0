@@ -6,7 +6,7 @@ const eventDetails = {
   sdginnovationexpo: {
   title: "Pitch for the Planet: SDG Innovation Expo",
   description: "Students showcase projects addressing one or more SDGs, judged for innovation, feasibility, and impact.",
-  image: "/images/expo.png",
+  image: "/images/expo.jpg",
   focus: "Foundational growth, SDG alignment, career empowerment.",
   objective: "Highlight student-led sustainable innovation.",
   date: "July 31, 2025 | 1:15 PM - 3:30 PM",
@@ -659,8 +659,12 @@ const EventDetail = () => {
 
         {/* Event Image */}
         <div className="w-full rounded-2xl overflow-hidden shadow-xl border border-yellow-400 bg-white/5">
-          <img src={event.image} alt={event.title} className="w-full max-h-[500px] object-contain object-center mx-auto" />
-        </div>
+<img
+      src={event.image}
+      alt={event.title}
+      className="w-full max-h-[500px] object-contain object-center mx-auto rounded-xl"
+    />       
+     </div>
 
         {/* Title and Description */}
         <div className="text-center space-y-4">

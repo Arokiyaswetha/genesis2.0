@@ -142,7 +142,7 @@ const eventDetails = {
   codeforcause: {
   title: "Code for Cause: The Humanitarian Hack-Sprint",
   description: "Competitive coding challenge testing speed, logic, and problem-solving.",
-  image: "/images/code.png",
+  image: "/images/code.jpg",
   focus: "Coding, analytical skills, and tech excellence.",
   objective: "Encourage rapid coding and logical problem-solving.",
   date: "July 31, 2025 | 1:15 PM - 3:30 PM",
@@ -442,7 +442,7 @@ greenmind: {
   title: "UrbanThink 2025: Designing Cities that Feel Human",
   description:
     "A challenge for students to reimagine urban spaces with sustainable, accessible, and human-first innovations rooted in SDG 11.",
-  image: "/images/smart-city.png",
+  image: "/images/smartcities.jpg",
   focus: "Tech-driven innovation, sustainability, and purpose-led leadership.",
   objective: "Promote SDG-based urban ideation.",
   date: "August 1, 2025 | 9:30 AM - 12:30 PM",
@@ -531,7 +531,7 @@ voicesoffire: {
   title: "Voices of Fire: Igniting Purpose-Driven Careers with IEEE",
   description:
     "A dynamic panel where IEEE visionaries share transformative insights on building careers fueled by innovation, impact, and global responsibility.",
-  image: "/images/Ieee.png",
+  image: "/images/paneldisc.jpg",
   focus: "Tech-driven innovation, sustainability, and purpose-led leadership.",
   objective: "Inspire students through leadership journeys.",
   date: "August 1, 2025 | 1:30 PM - 2:30 PM",

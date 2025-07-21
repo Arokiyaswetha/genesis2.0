@@ -25,6 +25,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/about" element={<About />} />
          <Route path="/events/:slug" element={<EventDetail />} />

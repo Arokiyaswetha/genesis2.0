@@ -17,17 +17,18 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 bg-blue-900/80 backdrop-blur-lg">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-4">
-            <div className="flex items-center space-x-2">
-              <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
-              <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
-              <img src="/images/htb.png" alt="HTB Logo" className="h-20 w-auto" />
-              <img src="/images/sairam_institutions_logo.png" alt="Sairam Institutions Logo" className="h-20" />
-            </div>
-            <Link to="/" className="text-2xl font-bold text-white">
-              Genesis <span className="text-accent">2.0</span>
-            </Link>
-          </div>
+          <div className="flex flex-col md:flex-row items-center md:space-x-4 space-y-2 md:space-y-0">
+  <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
+    <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
+    <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
+    <img src="/images/htb.png" alt="HTB Logo" className="h-12 md:h-20 w-auto" />
+    <img src="/images/sairam_institutions_logo.png" alt="Sairam Institutions Logo" className="h-12 md:h-20 w-auto" />
+  </div>
+  <Link to="/Home" className="text-xl md:text-2xl font-bold text-white text-center md:text-left">
+    Genesis <span className="text-accent">2.0</span>
+  </Link>
+</div>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">

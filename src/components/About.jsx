@@ -102,7 +102,7 @@ const About = () => {
   </div>
 
   <div className="bg-white/5 p-4 rounded-lg shadow-lg">
-    <h3 className="text-xl font-semibold mb-1">Dr. Mohan Raj K</h3>
+    <h3 className="text-xl font-semibold mb-1">Dr. K. Mohan Raj </h3>
     <p className="text-blue-200">Assistant Professor</p>
     <a href="tel:+919884467029" className="text-sm text-yellow-300 mt-2 inline-block hover:underline">
       +91 98844 67029

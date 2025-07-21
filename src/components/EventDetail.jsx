@@ -240,7 +240,7 @@ const eventDetails = {
 brandingbeyondborders: {
   title: "Power Within: Personal Identity, Growth & Impact",
   description: "Hands-on workshop to help students design impactful resumes and LinkedIn profiles.",
-  image: "/images/linkedin.png",
+  image: "/images/linkedwork.jpg",
   focus: "Foundational growth, SDG alignment, career empowerment.",
   objective: "Empower students to build strong digital presence.",
   date: "July 31, 2025 | 1:15 PM - 3:30 PM",
@@ -346,7 +346,7 @@ brandingbeyondborders: {
 greenmind: {
   title: "GreenMind: Sustainable AI for a Better Tomorrow",
   description: "Introductory and practical sessions on AI that prioritize green computing, ethics, and inclusive intelligence for SDG-aligned solutions.",
-  image: "/images/AI.png",
+  image: "/images/aiwork.jpg",
   focus: "Tech-driven innovation, sustainability, and purpose-led leadership.",
   objective: "Introduce students to sustainable AI principles.",
   date: "August 1, 2025 | 9:30 AM - 12:30 PM",

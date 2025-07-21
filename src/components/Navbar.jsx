@@ -16,21 +16,21 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-blue-900/80 backdrop-blur-lg">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex flex-col md:flex-row items-center md:space-x-4 space-y-2 md:space-y-0">
-  <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
-    <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
-    <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
-    <img src="/images/htb.png" alt="HTB Logo" className="h-12 md:h-20 w-auto" />
-    <img src="/images/sairam_institutions_logo.png" alt="Sairam Institutions Logo" className="h-12 md:h-20 w-auto" />
-  </div>
-  <Link to="/Home" className="text-xl md:text-2xl font-bold text-white text-center md:text-left">
-    Genesis <span className="text-accent">2.0</span>
-  </Link>
-</div>
+        <div className="flex justify-between items-center h-20">
+          {/* Left Section: Logos + Title */}
+          <div className="flex items-center space-x-4 overflow-x-auto">
+            <div className="flex items-center gap-2 md:gap-4 whitespace-nowrap">
+              <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
+              <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
+              <img src="/images/htb.png" alt="HTB Logo" className="h-10 md:h-16 w-auto" />
+              <img src="/images/sairam_institutions_logo.png" alt="Sairam Logo" className="h-10 md:h-16 w-auto" />
+            </div>
+            <Link to="/" className="text-lg md:text-2xl font-bold text-white pl-2">
+              Genesis <span className="text-accent">2.0</span>
+            </Link>
+          </div>
 
-
-          {/* Desktop Menu */}
+          {/* Desktop Links */}
           <div className="hidden md:flex space-x-8">
             {links.map((link) => (
               <Link
@@ -43,7 +43,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Toggle */}
           <button
             className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
@@ -52,7 +52,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Dropdown Menu */}
         <motion.div
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: isOpen ? 1 : 0, height: isOpen ? 'auto' : 0 }}

@@ -9,7 +9,7 @@ const eventDetails = {
   image: "/images/expo.png",
   focus: "Foundational growth, SDG alignment, career empowerment.",
   objective: "Highlight student-led sustainable innovation.",
-  date: "July 31, 2025 | 1:30 PM - 4:00 PM",
+  date: "July 31, 2025 | 1:15 PM - 3:30 PM",
   venue: "Sigma Auditorium, Sri Sairam Engineering College",
   details: (
     <>
@@ -30,17 +30,17 @@ const eventDetails = {
             </thead>
             <tbody className="bg-white/10 text-blue-100">
               <tr>
-                <td className="px-4 py-2 border border-blue-300">Theme 1</td>
+                <td className="px-4 py-2 border border-blue-300">Theme 1: HumanTech</td>
                 <td className="px-4 py-2 border border-blue-300">SDG 1 to 6</td>
                 <td className="px-4 py-2 border border-blue-300">Poverty, hunger, health, education, gender equality, water</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border border-blue-300">Theme 2</td>
+                <td className="px-4 py-2 border border-blue-300">Theme 2: InnoVerse</td>
                 <td className="px-4 py-2 border border-blue-300">SDG 7 to 12</td>
                 <td className="px-4 py-2 border border-blue-300">Energy, innovation, infrastructure, industry, sustainability</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border border-blue-300">Theme 3</td>
+                <td className="px-4 py-2 border border-blue-300">Theme 3: EcoNext </td>
                 <td className="px-4 py-2 border border-blue-300">SDG 13 to 17</td>
                 <td className="px-4 py-2 border border-blue-300">Climate action, life on land and water, peace, partnerships</td>
               </tr>
@@ -146,7 +146,7 @@ const eventDetails = {
   image: "/images/code.png",
   focus: "Coding, analytical skills, and tech excellence.",
   objective: "Encourage rapid coding and logical problem-solving.",
-  date: "July 31, 2025 | 1:30 PM - 4:00 PM",
+  date: "July 31, 2025 | 1:15 PM - 3:30 PM",
   venue: "Alpha Hall, Sri Sairam Engineering College",
   details: (
     <>
@@ -244,7 +244,7 @@ brandingbeyondborders: {
   image: "/images/linkedin.png",
   focus: "Foundational growth, SDG alignment, career empowerment.",
   objective: "Empower students to build strong digital presence.",
-  date: "July 31, 2025 | 1:00 PM - 4:00 PM",
+  date: "July 31, 2025 | 1:15 PM - 3:30 PM",
   venue: "Beta Hall, Sri Sairam Engineering College",
   details: (
     <>

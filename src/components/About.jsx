@@ -83,8 +83,9 @@ const About = () => {
   className="bg-white/10 backdrop-blur-lg rounded-xl p-8 mt-10"
 >
   <h2 className="text-2xl font-bold mb-6 text-yellow-400">Faculty Coordinators</h2>
+  
+  {/* First two coordinators in two columns */}
   <div className="grid md:grid-cols-2 gap-6 text-white">
-    {/* Coordinator 1 - Soma Prathibha */}
     <div className="bg-white/5 p-4 rounded-lg shadow-lg">
       <h3 className="text-xl font-semibold mb-1">Dr. Soma Prathibha</h3>
       <p className="text-blue-200">Professor</p>
@@ -93,16 +94,27 @@ const About = () => {
       </a>
     </div>
 
-    {/* Coordinator 2 - T. Porselvi */}
     <div className="bg-white/5 p-4 rounded-lg shadow-lg">
-      <h3 className="text-xl font-semibold mb-1">Dr. T. Porselvi </h3>
+      <h3 className="text-xl font-semibold mb-1">Dr. T. Porselvi</h3>
       <p className="text-blue-200">Professor</p>
       <a href="tel:+919445782722" className="text-sm text-yellow-300 mt-2 inline-block hover:underline">
         +91 94457 82722
       </a>
     </div>
   </div>
+
+  {/* Mohan Raj centered below */}
+  <div className="flex justify-center mt-6">
+    <div className="bg-white/5 p-4 rounded-lg shadow-lg w-full md:w-1/2 text-white text-center">
+      <h3 className="text-xl font-semibold mb-1">Dr. Mohan Raj K</h3>
+      <p className="text-blue-200">Assistant Professor</p>
+      <a href="tel:+919884467029" className="text-sm text-yellow-300 mt-2 inline-block hover:underline">
+        +91 98844 67029
+      </a>
+    </div>
+  </div>
 </motion.div>
+
 
     </div>
   );

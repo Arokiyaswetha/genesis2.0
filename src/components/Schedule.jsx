@@ -21,12 +21,12 @@ const Schedule = () => {
           description: "Lunch and refreshments will be provided only for participants from other colleges and the event volunteers."
         },
         {
-          time: "01:30 PM - 03:30 PM",
+          time: "01:15 PM - 03:30 PM",
           name: "PITCH FOR THE PLANET: SDG INNOVATION EXPO",
           description: "Parallel event showcasing student projects"
         },
         {
-          time: "01:30 PM - 03:30 PM",
+          time: "01:15 PM - 03:30 PM",
           name: "CODE FOR CAUSE: THE HUMANITARIAN HACK-SPRINT",
           description: "Parallel coding event hosted via HackerRank"
         },
@@ -60,11 +60,7 @@ const Schedule = () => {
           name: "BREAK",
           description: "Refreshments provided"
         },
-        {
-          time: "11:30 AM - 12:30 PM",
-          name: "STALLS",
-          description: "Section Best Chapter, EPICS & SIGHT exhibitions"
-        },
+        
         {
           time: "12:30 PM - 01:15 PM",
           name: "LUNCH BREAK",

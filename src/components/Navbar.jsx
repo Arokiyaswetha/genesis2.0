@@ -16,14 +16,16 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-blue-900/80 backdrop-blur-lg">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-20 flex-wrap md:flex-nowrap">
-          {/* Left: Logos and Title */}
-          <div className="flex items-center gap-2 md:gap-4 whitespace-nowrap overflow-x-auto max-w-full">
-            <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
-            <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
-            <img src="/images/htb.png" alt="HTB Logo" className="h-10 md:h-16 w-auto" />
-            <img src="/images/sairam_institutions_logo.png" alt="Sairam Logo" className="h-10 md:h-16 w-auto" />
-            <Link to="/home" className="text-lg md:text-2xl font-bold text-white pl-2 shrink-0">
+        <div className="flex justify-between items-center h-20">
+          {/* Left Section: Logos + Title */}
+          <div className="flex items-center space-x-4 overflow-x-auto">
+            <div className="flex items-center gap-2 md:gap-4 whitespace-nowrap">
+              <img src="/images/ieee-logo.png" alt="IEEE Logo" className="h-8" />
+              <img src="/images/logo2.png" alt="Logo 2" className="h-8" />
+              <img src="/images/htb.png" alt="HTB Logo" className="h-10 md:h-16 w-auto" />
+              <img src="/images/sairam_institutions_logo.png" alt="Sairam Logo" className="h-10 md:h-16 w-auto" />
+            </div>
+            <Link to="/" className="text-lg md:text-2xl font-bold text-white pl-2">
               Genesis <span className="text-accent">2.0</span>
             </Link>
           </div>
@@ -41,16 +43,16 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Mobile Toggle */}
+          {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden text-white ml-auto"
+            className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
             <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="text-xl" />
           </button>
         </div>
 
-        {/* Mobile Dropdown */}
+        {/* Mobile Dropdown Menu */}
         <motion.div
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: isOpen ? 1 : 0, height: isOpen ? 'auto' : 0 }}

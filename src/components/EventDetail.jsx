@@ -479,7 +479,6 @@ greenmind: {
             <h3 className="text-lg font-semibold text-yellow-300 mb-2">🧠 Event Segments</h3>
             <ul className="list-disc pl-5 space-y-1">
               <li>Introduction to smart city challenges</li>
-              <li>Problem statements revealed on-spot</li>
               <li>Ideation sprint: brainstorm & sketch your solution</li>
               <li>Peer-sharing and quick presentations</li>
               <li>Global inspirations: real-world innovations</li>

@@ -6,7 +6,7 @@ const BackgroundAnimation = () => {
 
   useEffect(() => {
     const generateBubbles = () => {
-    const newBubbles = Array.from({ length: 8 }, (_, i) => ({
+    const newBubbles = Array.from({ length: 5 }, (_, i) => ({
   id: i,
   x: Math.random() * window.innerWidth,
   y: Math.random() * window.innerHeight,

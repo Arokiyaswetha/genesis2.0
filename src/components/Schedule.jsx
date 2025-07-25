@@ -69,7 +69,7 @@ const Schedule = () => {
         {
           time: "01:30 PM - 02:30 PM",
           name: "VOICES OF FIRE: IGNITING PURPOSE-DRIVEN CAREERS WITH IEEE",
-          description: "Session with alumni and experts (moderated)"
+          description: "Session with alumni and IEEE experts (moderated)"
         },
         {
           time: "02:30 PM - 04:00 PM",

@@ -309,6 +309,36 @@ useEffect(() => {
   </div>
 </div>
 
+
+{/* Genesis 2.0 Preview */}
+<motion.div
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }}
+  className="bg-white/5 backdrop-blur-md rounded-xl p-10 mb-20 flex flex-col md:flex-row gap-10 items-center"
+>
+  <img
+    src="/images/genesis2.o.jpg" // Replace with your actual image path
+    alt="Genesis 2.0"
+    className="w-full md:w-[450px] rounded-lg shadow-lg"
+  />
+  <div className="flex-1">
+    <h2 className="text-3xl font-bold text-yellow-400 mb-4">About Genesis 2.0</h2>
+    <p className="text-blue-100 leading-relaxed text-justify">
+      Genesis 2.0 stands as the flagship symposium hosted by the IEEE-HKN Nu Eta Chapter of Sri Sairam Engineering College. Building upon the overwhelming success of its inaugural edition, Genesis 2.0 elevates the experience by expanding its scope, scale, and impact — bringing together brilliant minds from across the country to engage in a transformative two-day journey of innovation, collaboration, and celebration.
+      <br /><br />
+      It aims to cultivate an environment where knowledge converges with real-world application. The symposium features expert-led technical workshops, immersive exhibitions, live demonstrations, competitive coding battles, hardware hackathons, and start-up expos designed to ignite curiosity and foster interdisciplinary learning.
+      <br /><br />
+      More than just a symposium, it serves as a platform where innovators, developers and entrepreneurs converge to connect, compete, and collaborate toward shaping the future.
+      <br /><br />
+      As we move toward a more connected and intelligent world, Genesis 2.0 serves as a catalyst to empower the next generation of leaders and changemakers. Join us as we reimagine the future — one idea, one innovation, and one breakthrough at a time.
+    </p>
+  </div>
+</motion.div>
+
+
+
       {/* Prize Pool Highlight Section */}
 <div className="bg-gradient-to-br from-[#1e2a78]/60 to-[#14234d]/70 border border-yellow-400 shadow-lg shadow-yellow-300/30 rounded-xl px-8 py-6 mb-12 text-center">
   <h2 className="text-3xl font-extrabold text-yellow-400 mb-3">

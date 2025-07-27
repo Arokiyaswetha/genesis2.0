@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Schedule from './components/Schedule';
 import About from './components/About';
 import Footer from './components/Footer';
+import Speakers from './components/Speakers';
 import BackgroundAnimation from './components/BackgroundAnimation';
 import EventDetail from './components/EventDetail';
 
@@ -29,6 +30,8 @@ function App() {
 
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/about" element={<About />} />
+          <Route path="/speakers" element={<Speakers />} />
+
          <Route path="/events/:slug" element={<EventDetail />} />
 
         </Routes>
